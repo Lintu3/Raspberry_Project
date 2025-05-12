@@ -4,6 +4,8 @@ Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and Mari
 You can look at the codes with some explanation.
 Project is set up and working as intended.
 
+![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)
+
 I will be adding all the steps later.
 
 Added one picture of drawn data. it has a cap in April 17.-21. and small cap after it. I was testing and had wifi off.
@@ -36,6 +38,7 @@ install with pip:
 paho-mqtt
 mysql-connector-python
 matplotlib
+
 SpeechRecognition
 
 install in Arduino IDE:
