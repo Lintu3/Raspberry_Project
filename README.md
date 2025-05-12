@@ -31,9 +31,15 @@ Mosquitto MQTT broker,
 MySQL MariaDB,  
 Python and C++.  
 
-Code librarys:
-.
-.
+Librarys:
+install with pip:
+paho-mqtt
+mysql-connector-python
+matplotlib
+SpeechRecognition
+
+install in Arduino IDE:
+
 .
 
 Story about the project evolving:
