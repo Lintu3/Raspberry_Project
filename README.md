@@ -51,17 +51,17 @@ Okey now I got that figured so where am I going to send and store the data? Well
  I had to figure how MQTT message is used so I installed Mosquitto MQTT-broker on Raspberry as well. Then created the subscription that receives that JSON that I mentioned. There was a curious problems with connection and it had to do with the Mosquitto config file. There is something wrong with the broker when I had password set up(going to figure out later), so I just left that out for now. Okey so now I had to make a script that takes that JSON, formats it a bit because the soilmoisture value was just numbers with a range of 0 to ~2500. 
 Where as 0 is just air and ~2500 pure water... 
 
-The script calculates percents from that to get it right and stores it to the MariaDB.
+The script Data_to_MariaDB calculates percents from that to get it right and stores it to the MariaDB.
 Hurray it works!
 
 Now I made another script with my desktop PC to access that Raspberry via MySQL.connector connection to retrieve the data for analysis. I then used the data with matplotlib to create a graph you can checkout the .png file. 
 
-Okey nice I can analyse my home and house plant. Well I got hungry for more. Remember the relay I had, well I thought that if I can send data with arduino maybe I can receive something as well? To the arduino code->.
+Okey nice I can analyse my home and house plant. Well I got hungry for more. Remember the relay I had, well I thought that if I can send data with arduino maybe it can receive something as well? To the arduino code->.
 
  There I made a callback or actually I already had one because of debugging the data sending via MQTT. Okey so now I know it works. I made a new subscription for the MQTT-broker in Raspberry and made the arduinos callback function to receive something. 
 What? 
 
-Well I connected the relay and made it control a lamp in my kitchen. So I wrote a script in raspberry to receive a message, a simple string "on"/"off" and made the MQTT-broker to send that same string to arduino and when it arrives the callback function gives a singal to relay to turn either on or off. 
+Well I connected the relay and made it control a lamp in my kitchen. So I wrote a script (tcp_mqtt_bridge) in raspberry to receive a message, a simple string "on"/"off" and made the MQTT-broker to send that same string to arduino and when it arrives the callback function gives a singal to relay to turn either on or off. 
 
 Right, now I had that figured so I made a script to my desktop PC so I can type either "on" or "off" and it sends it to raspberry and so on. Until relay switches the light on or off. 
 
