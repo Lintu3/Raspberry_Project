@@ -31,7 +31,12 @@ Mosquitto MQTT broker,
 MySQL MariaDB,  
 Python and C++.  
 
-Why and for what purpose did I do it?:
+Code librarys:
+.
+.
+.
+
+Story about the project evolving:
 
 I had a Raspberry PI 3B+ that was working as a radio and I thought that it would be cool to start making some code or system settings. I knew of the endless possibilities that could be done with it and I wasn't sure what to do.
 
