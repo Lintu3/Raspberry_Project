@@ -39,8 +39,12 @@ matplotlib
 SpeechRecognition
 
 install in Arduino IDE:
+WiFi
+PubSubClient
+DHT sensor library
+ArduinoJson
 
-.
+
 
 Story about the project evolving:
 
