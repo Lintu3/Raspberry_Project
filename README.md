@@ -25,7 +25,7 @@ Raspberry Pi 3B+,
 Modem with wifi 
 and desktop PC.
 
-Software: 
+Software:  
 Arduino IDE,  
 Visual studio code,  
 Raspbian that came with Raspberry Pi,  
