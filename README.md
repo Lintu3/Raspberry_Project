@@ -8,7 +8,7 @@ Here you can see a rough diagram about it.
 ![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)
 The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 
-Added one picture of drawn data check the files for ArduinoData.png. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
+Added one picture of drawn data, check the files for ArduinoData.png. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
 
 Still in development. 
 
@@ -65,7 +65,7 @@ Okey now I got that figured so where am I going to send and store the data? Well
  I had to figure how MQTT message is used so I installed Mosquitto MQTT-broker on Raspberry as well. Then created the subscription that receives that JSON that I mentioned. There was a curious problems with connection and it had to do with the Mosquitto config file. There is something wrong with the broker when I had password set up(going to figure out later), so I just left that out for now. Okey so now I had to make a script that takes that JSON, formats it a bit because the soilmoisture value was just numbers with a range of 0 to ~2500. 
 Where as 0 is just air and ~2500 pure water... 
 
-The script Data_to_MariaDB calculates percents from that to get it right and stores it to the MariaDB.
+The script Data_to_MariaDB calculates percents from that to get it right and stores it to the MariaDB.  
 Hurray it works!
 
 Now I made another script with my desktop PC to access that Raspberry via MySQL.connector connection to retrieve the data for analysis. I then used the data with matplotlib to create a graph you can checkout the .png file. 
