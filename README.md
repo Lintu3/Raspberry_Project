@@ -1,7 +1,7 @@
 Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen.
 
 Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and MariaDB.
-You can look at the codes with some explanation.
+The codes have comments and here is some explanation of the system.
 Project is set up and working as intended.
 
 ![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)
