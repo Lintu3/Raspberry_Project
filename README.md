@@ -56,9 +56,7 @@ I have an old aquarium pump and I figured that I need something to control it wi
 
 Next up I figured that maybe I could make a automated weather station (still on my mind). So I ordered a DHT22 air temperature/moisture sensor and a air pressure sensor (it's still in plastic). Now I needed to figure a reliable way to get the data from that sensor and have it stored somewhere.
 
- First I made the arduino send kinda stupid data to raspberry and have it print it in .csv to store it. That worked as expected and I could do a graph from that .csv but I figured that it's not reliable or the correct way to do it. So I started figuring how to send large amounts of data with low bandwith from a distance. 
-
-Before that I had the arduino wired to raspberry directly. 
+First I made the arduino send kinda stupid data to raspberry and have it print it in .csv to store it. That worked as expected and I could do a graph from that .csv but I figured that it's not reliable or the correct way to do it. So I started figuring how to send large amounts of data with low bandwith from a distance.  
 
 I decided that MQTT-protocol is the way to go. I decided to send a JSON message with 3 different kinds of info: soilmoisture/temperature/airmoisture. 
 
