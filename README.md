@@ -35,15 +35,15 @@ Python and C++.
 
 Librarys:
 
-install with pip: 
-paho-mqtt,
-mysql-connector-python, 
-matplotlib, 
-SpeechRecognition. 
-install in Arduino IDE: 
-WiFi, 
-PubSubClient, 
-DHT sensor library, 
+install with pip:  
+paho-mqtt,  
+mysql-connector-python,  
+matplotlib,  
+SpeechRecognition.  
+install in Arduino IDE:  
+WiFi,  
+PubSubClient,  
+DHT sensor library,  
 ArduinoJson
 
 Story about the project evolving:
