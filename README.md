@@ -16,7 +16,7 @@ Still in development.
 
 What I worked with:
 
-Hardware: 
+Hardware:  
 Arduino Nano ESP32,  
 Bestep 1-channel relay module,  
 DHT22 temperature and airmoisture sensor,  
