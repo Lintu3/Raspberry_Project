@@ -4,7 +4,7 @@ Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and Mari
 The codes have comments and here is some explanation of the system.
 Project is set up and working as intended.
 
-Here you can see a rough diagram about it.
+Here you can see a rough diagram about it.  
 ![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)  
 The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 
