@@ -5,7 +5,7 @@ The codes have comments and here is some explanation of the system.
 Project is set up and working as intended.
 
 Here you can see a rough diagram about it.
-![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819) 
+![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)  
 The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 
 Added one picture of drawn data, check the files for ArduinoData.png. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
