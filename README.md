@@ -72,10 +72,9 @@ Hurray it works!
 
 Now I made another script with my desktop PC to access that Raspberry via MySQL.connector connection to retrieve the data for analysis. I then used the data with matplotlib to create a graph you can checkout the .png file. 
 
-Okey nice I can analyse my home and house plant. Well I got hungry for more. Remember the relay I had, well I thought that if I can send data with arduino maybe it can receive something as well? To the arduino code->.
+Okey nice now I can analyse my home temperature, humidity and house plant soil. Well I got hungry for more. Remember the relay I had, well I thought that if I can send data with Arduino to Raspberry maybe I can do it otherway around as well? To the arduino code->.
 
- There I made a callback or actually I already had one because of debugging the data sending via MQTT. Okey so now I know it works. I made a new subscription for the MQTT-broker in Raspberry and made the arduinos callback function to receive something. 
-What? 
+ There I made a callback (actually I already had one because of debugging) for receiving data via MQTT. Okey so now I know it works. I made a new subscription for the MQTT-broker in Raspberry and made the arduinos callback function to receive something. 
 
 Well I connected the relay and made it control a lamp in my kitchen. So I wrote a script (tcp_mqtt_bridge) in raspberry to receive a message, a simple string "on"/"off" and made the MQTT-broker to send that same string to arduino and when it arrives the callback function gives a singal to relay to turn either on or off. 
 
