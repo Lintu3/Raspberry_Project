@@ -46,6 +46,8 @@ PubSubClient,
 DHT sensor library,  
 ArduinoJson
 
+Step by step instructions are coming later. Those include installation of Mosquitto, MariaDB etc. and config file setup, also static IP-address for wireless network for Raspberry. I will add all of the Linux commands that are needed.
+
 Story about the project evolving:
 
 I had a Raspberry PI 3B+ that was working as a radio and I thought that it would be cool to start making some code or system settings. I knew of the endless possibilities that could be done with it and I wasn't sure what to do.
