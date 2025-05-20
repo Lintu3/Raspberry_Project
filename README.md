@@ -83,7 +83,7 @@ Right, now I had that figured so I made a script to my desktop PC so I can type 
 Now I have remote control to my kitchen light. 
 Cool! 
 
-As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google voice recognition API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
+As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google web speech API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
 
 Now I'm waiting for more Arduinos to arrive and some other stuff. I want to try making a bigger network of things and see if Raspberry can handle the load from multiple sources. Let's see what I come up with. :) 
 
