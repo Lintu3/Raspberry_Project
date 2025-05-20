@@ -62,12 +62,12 @@ First I made the arduino send kinda stupid data to raspberry and have it print i
 
 I decided that MQTT-protocol is the way to go. I decided to send a JSON message with 3 different kinds of info: soilmoisture/temperature/airmoisture. 
 
-Okey now I got that figured so where am I going to send and store the data? Well MySQL database ofcourse. So set up MariaDB on raspberry with one table that has timestamp,soilmoisture,temperature and airmoisture colums.
+Okey now I got that figured so where am I going to send and store the data? Well MySQL database of course. So set up MariaDB on raspberry with one table that has timestamp,soilmoisture,temperature and airmoisture columns.
 
  I had to figure how MQTT message is used so I installed Mosquitto MQTT-broker on Raspberry as well. Then created the subscription that receives that JSON that I mentioned. There was a curious problems with connection and it had to do with the Mosquitto config file. There is something wrong with the broker when I had password set up(going to figure out later), so I just left that out for now. Okey so now I had to make a script that takes that JSON, formats it a bit because the soilmoisture value was just numbers with a range of 0 to ~2500. 
 Where as 0 is just air and ~2500 pure water... 
 
-The script Data_to_MariaDB calculates percents from that to get it right and stores it to the MariaDB.  
+The script Data_to_MariaDB calculates percents from that to get the value right and stores it to the MariaDB.  
 Hurray it works!
 
 Now I made another script with my desktop PC to access that Raspberry via MySQL.connector connection to retrieve the data for analysis. I then used the data with matplotlib to create a graph you can checkout the .png file. 
