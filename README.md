@@ -1,4 +1,4 @@
-Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen.
+Currently the project wirelessly measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen.
 
 Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and MariaDB.
 The codes have comments and here is some explanation of the system.
