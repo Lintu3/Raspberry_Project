@@ -50,7 +50,7 @@ Story about the project evolving:
 
 I had a Raspberry PI 3B+ that was working as a radio and I thought that it would be cool to start making some code or system settings. I knew of the endless possibilities that could be done with it and I wasn't sure what to do.
 
- I started experimenting on SSH-connection to remotely control web radio and after I got it working with my phone I wanted more. Next I figured that I want something like automated houseplant watering system or something like that... 
+ I started experimenting on SSH-connection to remotely control web radio and after I got it working with my phone I wanted more. I ordered some resistors, LEDs and wires. I experimented with them to turn LED on if SSH-connection was on, so I could see quickly if I accidentaly was still connected. Next I figured that I want something like automated houseplant watering system or something like that... 
 
 I have an old aquarium pump and I figured that I need something to control it with. I decided that a relay, arduino and soilmoisture sensor would do. I ordered those. When they arrived I got it working quite fast as I had planned it before hand. But there was a problem, where can I get water automaticaly. I live in a rental residence so pluming was not an option. I still have the code from that project but I tossed it. 
 
@@ -83,6 +83,8 @@ Now I have remote control to my kitchen light.
 Cool! 
 
 As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google voice recognition API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
+
+Now I'm waiting for more Arduinos to arrive and some other stuff. I want to try making a bigger network of things and see if Raspberry can handle the load from multiple sources. Let's see what I come up with. :) 
 
 This will continue...
 
