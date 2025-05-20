@@ -8,7 +8,11 @@ Here you can see a rough diagram about it.
 ![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)  
 The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 
-Added one picture of drawn data, check the files for ArduinoData.png. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
+Here is the newest data:
+
+![Arduino_DATA2](https://github.com/user-attachments/assets/98e5f426-6ac8-47a5-9f6b-100b0a81f59c)
+
+Added one picture of drawn data, check the files for ArduinoData.png for later timeframe. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
 
 Still in development. 
 
@@ -80,8 +84,11 @@ Well I connected the relay and made it control a lamp in my kitchen. So I wrote 
 
 Right, now I had that figured so I made a script to my desktop PC so I can type either "on" or "off" and it sends it to raspberry and so on. Until relay switches the light on or off. 
 
-Now I have remote control to my kitchen light. 
+Now I have remote control to my kitchen light.
+
 Cool! 
+
+ ![IMG_20250512_193713](https://github.com/user-attachments/assets/594e2884-1b37-4512-9ff4-e0b6e209720b)
 
 As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google web speech API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
 
