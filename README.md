@@ -88,6 +88,8 @@ Now I have remote control to my kitchen light.
 
 Cool! 
 
+Picture of Arduino, relay, DHT22 and CT0007MS.
+
  ![IMG_20250512_193713](https://github.com/user-attachments/assets/594e2884-1b37-4512-9ff4-e0b6e209720b)
 
 As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google web speech API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
