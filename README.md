@@ -86,7 +86,11 @@ Right, now I had that figured so I made a script to my desktop PC so I can type 
 
 Now I have remote control to my kitchen light.
 
-Cool! 
+Cool!
+Raspberry screen that shows raw data coming to it from Arduino, MariaDB with refined data, MQTT-broker's commands printed, and Mosquitto Configuration file.
+
+ ![Raspberry_Screen](https://github.com/user-attachments/assets/bad0d5c6-cccf-49a7-b7a5-13e160dc3fb4)
+ 
 
 Picture of Arduino, relay, DHT22 and CT0007MS.
 
