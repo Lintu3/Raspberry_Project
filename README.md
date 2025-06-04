@@ -1,14 +1,15 @@
-Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen. It's using wireless connection. It's controlled from desktop PC but with small adjustment to modem settings it's possible to control it from and receive data to any device.
+Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen. It's using wireless connection. It's controlled from desktop PC but with small adjustment to modem settings it's possible to control it from and receive data to any device. New feature! Oled Display that shows the temperature real time and outside weather every hour.
 
 Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and MariaDB.
 The codes have comments and here is some explanation of the system.
 Project is set up and working as intended.
 
 Here you can see a rough diagram about it.  
-![Project_Diagram(2)](https://github.com/user-attachments/assets/90c65834-e344-480d-9732-3623bddbb819)  
-The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 
+The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
+![RASPBERRY MQTT drawio](https://github.com/user-attachments/assets/423cc79c-720c-4da1-924b-9512d51378bf)
 Here is the newest data:
+
 
 ![Arduino_DATA2](https://github.com/user-attachments/assets/98e5f426-6ac8-47a5-9f6b-100b0a81f59c)
 
@@ -101,6 +102,9 @@ Picture of Arduino, relay, DHT22 and CT0007MS.
 As I mentioned before this thing is evolving and I'm making voice control system for it now. It's currently working with Google web speech API and I set the key words by my self. The code is kinda funny looking because its still a test. It works really well but sometimes the ambient sound filter thing makes it not recognice my words if I don't speak loudly.
 
 Now I'm waiting for more Arduinos to arrive and some other stuff. I want to try making a bigger network of things and see if Raspberry can handle the load from multiple sources. Let's see what I come up with. :) 
+
+Now there is a new Arduino that receives two separate MQTT messages. One from DHT22 and other from Desktop. It's using FreeRTOS that is build in ESP32.
+
 
 This will continue...
 
