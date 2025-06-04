@@ -8,6 +8,8 @@ Here you can see a rough diagram about it.
 
 The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 ![RASPBERRY MQTT drawio](https://github.com/user-attachments/assets/423cc79c-720c-4da1-924b-9512d51378bf)
+
+
 Here is the newest data:
 
 ![Data_5_6_25](https://github.com/user-attachments/assets/ceab0de0-2657-4816-abce-be7aa1dbde2e)
