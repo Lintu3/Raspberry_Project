@@ -10,8 +10,8 @@ The Mosquitto MQTT-broker and MariaDB are running in raspberry to be clear.
 ![RASPBERRY MQTT drawio](https://github.com/user-attachments/assets/423cc79c-720c-4da1-924b-9512d51378bf)
 Here is the newest data:
 
+![Data_5_6_25](https://github.com/user-attachments/assets/ceab0de0-2657-4816-abce-be7aa1dbde2e)
 
-![Arduino_DATA2](https://github.com/user-attachments/assets/98e5f426-6ac8-47a5-9f6b-100b0a81f59c)
 
 Added one picture of drawn data, check the files for ArduinoData.png for later timeframe. it has a cap in April 17.-21. and small cap after it because I was testing things and had wifi off.
 
