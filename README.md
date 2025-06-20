@@ -1,4 +1,4 @@
-Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen. It's using wireless connection. It's controlled from desktop PC but with small adjustment to modem settings it's possible to control it from and receive data to any device. New feature! Oled Display that shows the temperature real time and outside weather every hour.
+Currently the project measures temperature, airmoisture, soilmoisture of a houseplant and turns on a lightpulp in my kitchen. It's using wireless connection. It's controlled from desktop PC but with small adjustment to modem settings it's possible to control it from and receive data to any device. New feature! Oled Display that shows the data in realtime!
 
 Project involvolves Arduino Nano ESP32, Raspberry Pi 3B+, MQTT-protocol and MariaDB.
 The codes have comments and here is some explanation of the system.
