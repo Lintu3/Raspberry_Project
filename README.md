@@ -2,7 +2,7 @@
 
 🧠 What It Does
 
-This project monitors a houseplant's temperature, air humidity, and soil moisture and remotely controls a kitchen lightbulb via wireless communication. It features real-time data logging, visualization, and now includes an OLED display for on-the-spot feedback.
+This project monitors a houseplant's temperature, air humidity, soil moisture and remotely controls a kitchen lightbulb via wireless communication. It features real-time data logging, visualization, and now includes an OLED display for on-the-spot feedback.
 
 🆕 **New feature**: Live OLED display for sensor data!
 
