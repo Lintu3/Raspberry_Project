@@ -34,15 +34,21 @@ While it's currently controlled from a **desktop PC**, adjusting your modem sett
 - Python 3 & C++  
 
 📦 Python Libraries (install with pip):
+
 pip install paho-mqtt mysql-connector-python matplotlib SpeechRecognition
 
 📚 Arduino Libraries (install via Arduino IDE):
+
 WiFi
+
 PubSubClient
+
 DHT Sensor Library
+
 ArduinoJson
 
 🔌 System Overview
+
 Arduino reads sensor values and publishes data via MQTT.
 
 Raspberry Pi runs Mosquitto and subscribes to these MQTT topics.
