@@ -11,8 +11,9 @@ This project monitors a houseplant's **temperature, air humidity, soil moisture*
 **The soil moisture measuring is currently off because making changes in house.** Temperature and air humidity are still collecting data.
 
 While it's currently controlled from a **desktop PC**, adjusting your modem settings allows access from **any device**.
+Creating a web API for easy readings.
 
-**Creating a web API for easy readings.** 
+
 ---
 
 🔩 Hardware Used
