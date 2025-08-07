@@ -8,8 +8,11 @@ This project monitors a houseplant's **temperature, air humidity, soil moisture*
 
 **Added a small script to show how hot my house has been lately.** Showing temperatures of 31 degrees celsius and more. 
 
+**The soil moisture measuring is currently off because making changes in house.** Temperature and air humidity are still collecting data.
+
 While it's currently controlled from a **desktop PC**, adjusting your modem settings allows access from **any device**.
 
+**Creating a web API for easy readings.** 
 ---
 
 🔩 Hardware Used
