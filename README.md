@@ -6,6 +6,8 @@ This project monitors a houseplant's **temperature, air humidity, soil moisture*
 
 🆕 **New feature**: Live OLED display for sensor data!
 
+**Added a small script to show how hot my house has been lately.** Showing temperatures of 31 degrees celsius and more. 
+
 While it's currently controlled from a **desktop PC**, adjusting your modem settings allows access from **any device**.
 
 ---
