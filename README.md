@@ -4,7 +4,7 @@
 
 This project monitors a houseplant's **temperature, air humidity, soil moisture** and remotely controls a **kitchen lightbulb** via wireless communication. It features **real-time** data logging, visualization, and now includes an OLED display for on-the-spot feedback.
 
-🆕 **New feature**: Live OLED display for sensor data!
+🆕 **New feature**: Live OLED display for sensor data and now also electricity price!
 
 **Added a small script to show how hot my house has been lately.** Showing temperatures of 31 degrees celsius and more. 
 
