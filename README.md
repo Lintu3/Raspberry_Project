@@ -6,7 +6,7 @@ This project monitors a houseplant's **temperature, air humidity, soil moisture*
 
 🆕 **New feature**: Live OLED display for sensor data and now also electricity price!
 
-**Added a small script to show how hot my house has been lately.** Showing temperatures of 31 degrees celsius and more. 
+
 
 **The soil moisture measuring is currently off because making changes in house.** Temperature and air humidity are still collecting data.
 
