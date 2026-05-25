@@ -150,6 +150,8 @@ Extended voice interaction support
 
 Real-time system status display
 
+It has been on halt going to find some time and start doing it again..
+
 💬 Feedback & Contributions
 This project is ongoing! Issues, ideas, pull requests, and discussions are welcome.
 
